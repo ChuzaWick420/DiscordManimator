@@ -45,4 +45,4 @@ if __name__ == "__main__":
     asyncio.run(load_cogs())
 
 
-bot.run(config.TOKEN)
+bot.run(os.getenv('DISCORD_BOT_TOKEN'))
