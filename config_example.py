@@ -1,5 +1,6 @@
+import os
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 PREFIX = "!"
-TOKEN = ""
 # Todo -- update class dictionary
 BLACKLIST_COGS = {}
 
